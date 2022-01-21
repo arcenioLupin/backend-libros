@@ -17,4 +17,4 @@ como respuesta.
 
 - Posteriormente puede consultar el listado de libros con una petición GET en postam: http://localhost:8080/VentasRest/api/v1/libros
 
-PD: Se utilizó RestTemplate para consumir la api rest externa, pero siempre obtuve error 403, el código que hace la petición está comentado en el Proyecto VentasDaos, paquete com.pe.ventas.back.daos.libros.impl , clase LibroDao.java, método  obtenerTodos(), linea 37 a la 43, intenté pasarle headers y también setear el certificado ssl en mi aplicación pero finalmente se logró el consumo, pero igual les estoy enviando la pruaba con todolo que he avanzado.
+PD: Se utilizó RestTemplate para consumir la api rest externa, pero siempre obtuve error 403, el código que hace la petición está comentado en el Proyecto VentasDaos, paquete com.pe.ventas.back.daos.libros.impl , clase LibroDao.java, método  obtenerTodos(), linea 37 a la 43, intenté pasarle headers y también setear el certificado ssl en mi aplicación pero finalmente se no se logró el consumo, pero igual les estoy enviando la pruaba con todolo que he avanzado.
